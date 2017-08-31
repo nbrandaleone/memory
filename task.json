@@ -1,0 +1,12 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "memory-game",
+      "image": "nbrand/nginx-memory",
+      "cpu": 100,
+      "memory": 256,
+      "essential": true
+    }
+  ],
+  "family": "nginx-memory"
+}
